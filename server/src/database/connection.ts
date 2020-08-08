@@ -1,8 +1,8 @@
-import knex from 'knex'
+import Knex from 'knex'
 
 //Migratrions: controlam a versao do banco de dados
 
-const pg = knex({
+const pg = Knex({
     client: 'pg',
     searchPath: 'nlw',
     connection: {
